@@ -20,7 +20,8 @@ header {
     color: whitesmoke;
     justify-content: space-between;
     background-image:url(https://cdn.pixabay.com/photo/2018/03/27/19/00/library-3267001_1280.jpg);
-    height: 600px;
+    background-size: cover;
+    height: 500px;
 }
 
 nav {
