@@ -1,0 +1,64 @@
+header {
+display: flex;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+}
+
+/* Nav Menu */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Nav Menu Links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.banner {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    display: flex;
+}
+
+.work {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+}
