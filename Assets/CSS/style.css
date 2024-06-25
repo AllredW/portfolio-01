@@ -55,7 +55,9 @@ nav li a:hover {
     color:tan;
 }
 
-
+nav li a:visited {
+    color: var(--white);
+}
 
 /* Nav Menu */
 header h1 {
@@ -119,6 +121,7 @@ section {
     text-align: right;
     padding-right: 20px;
     border-right: solid 2px var(--white);
+    font-weight: 700;
 }
 
 #bio {
@@ -131,64 +134,37 @@ section {
     gap: 1rem;
 }
 
-#gallery {
+.gallery {
     display: flex;
     flex-basis: 90%;
     flex-wrap: wrap;
+    padding: 20px 2%;
 }
 
-.thumb {
-    background-color: aqua;
-    margin: 5px;
-}
-
-#work1 {
-    background-image: url("../Images/Code\ Refactor\ Thumbnail.png");
-    height: 400px;
+.gallery a  {
+   border: 1px solid var(--white);
+   padding: 25px;
+    height: 200px;
     flex-basis: 98%;
     background-size: contain;
 }
 
-#work2 {
-    background-image: url("../Images/Under\ Construction\ Thumbnail.png");
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: 49%;
-}
-
-#work3 {
-    background-image: url("../Images/Under\ Construction\ Thumbnail.png");
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: 49%;
-}
-
-#work4 {
-    background-image: url("../Images/Under\ Construction\ Thumbnail.png");
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: 49%;
-}
-
-#work5 {
-    background-image: url("../Images/Under\ Construction\ Thumbnail.png");
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: 49%;
-}
-
-#gallery img {
-    margin: 20px;
-    width: 50%;
-}
-
-.gallery :first-child {
+.gallery a img {
+    max-height: 200px;
+    height: 100%;
     width: 100%;
+}
+
+#thumbsub {
+    min-height: 100px;
+    max-height: 100px;
+    flex-basis: 46%;
 }
 
 .contact {
     display: flex;
     background-color: var(--darkbrown) ;
+    color: var(--white);
 
 }
 
