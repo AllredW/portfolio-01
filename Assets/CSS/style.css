@@ -2,6 +2,7 @@
 margin: 0;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: whitesmoke;
+font-size: 20px;
 }
 
 header {
@@ -95,12 +96,20 @@ section {
 #gallery {
     display: flex;
     flex-wrap: wrap;
+    align-self: center;
     padding: 10px;
-    width: 85%;
+    width: 80%;
+    list-style: none;
+    justify-content: space-evenly;
 }
 
 #gallery img {
-width: 50%;
+    margin: 20px;
+    width: 50%;
+}
+
+.gallery :first-child {
+  width: 100%;
 }
 
 .contact {
